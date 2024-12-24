@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, san-serif;
+    line-height: 1.6;
+}
+
+
+
+body{
+    background: #000;
+    color: #fff;
+}
+
+.main-section{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    display: flex;
+
+}
+
+.container{
+    background: hsl(0, 0%, 8%);
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+.inner-content{
+    margin: 30px;
+}
+
+.basic-details {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.basic-details img{
+width: 60px;
+border-radius: 100%;
+margin-bottom: 20px;
+}
+
+.basic-details h2{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.basic-details h4{
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+
+.basic-details p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.socialbtn{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialbtn .github{
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 12px;
+    background: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.socialbtn .github a{
+    text-decoration: none;
+    color: hsl(0, 0%, 8%);
+}
+
+.socialbtn .frontend-mentor{
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 12px;
+    background: #333;
+    cursor: pointer;
+}
+
+.socialbtn .frontend-mentor a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socialbtn .linkedin{
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 12px;
+    background: #333;
+    cursor: pointer;
+}
+
+.socialbtn .linkedin a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socialbtn .twitter{
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 12px;
+    background: #333;
+    cursor: pointer;
+}
+
+.socialbtn .twitter a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socialbtn .instagram{
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    cursor: pointer;
+}
+
+.socialbtn .instagram a{
+    text-decoration: none;
+    color: #fff;
+}
